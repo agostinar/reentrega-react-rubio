@@ -1,0 +1,155 @@
+:root {
+    --bg-color: #f2f2f2;
+    --second-bg-color: #ff6600;
+    --text-color: #333333;
+    --main-color:  #492E74;
+    --hover: #5a07e0;
+}
+
+.btn-order{
+    background-color: var(--main-color);
+    font-size: 1.5rem;
+}
+
+.cart-container{
+    padding-top: 10rem;
+}
+
+.no-products-in-cart{
+    padding-top: 4rem;
+    color: red;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.cart-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: .1rem solid var(--text-color);
+    box-shadow: 0 0 1rem var(--text-color);
+    transition: transform 0.2s;
+    margin: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.cart-flex img{
+    width: 35rem;
+    height: 40rem;
+}
+
+.div-product{
+    flex-grow: 1;
+    flex-basis: 200;
+}
+
+.div-product h2{
+    font-size: 3rem;
+    color: var(--text-color);
+}
+
+
+.prod-cart-info{
+    padding: 1rem;
+    font-size: 1.7rem;
+    justify-content: center;
+}
+
+.btn-delete{
+    border: .2rem solid var(--main-color);
+    font-size: 2rem;
+    margin-left: 2rem;
+    width: 5rem;
+}
+
+.btn-delete:hover{
+    cursor: pointer;
+    background-color: var(--hover);
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+.cart-price-empty{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-price-empty h3{
+    font-size: 2.5rem;
+    color: var(--text-color);
+}
+
+.btn-empty-cart{
+    border: .2rem solid var(--second-bg-color);
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.btn-empty-cart:hover{
+    cursor: pointer;
+    box-shadow: 0 0 1rem var(--second-bg-color);
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container h2{
+    font-size: 2rem;
+    color: var(--text-color);
+}
+
+.purchase-generated{
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.form-cart{
+    font-size: 2rem;
+    padding-top: 1rem;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border: .2rem solid #2c2c2c;
+    border-radius: .5rem;
+    text-align: center;
+    width: 30rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.btn-container button {
+    font-size: 2rem;
+    padding: 1rem 3rem;
+    color: var(--text-color); 
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-finish-order {
+    text-decoration: none;
+    border: .2rem solid var(--main-color); 
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-finish-order:hover {
+    background-color: var(--hover);
+    color: var(--bg-color);
+}
+
